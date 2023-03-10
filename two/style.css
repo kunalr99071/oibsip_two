@@ -1,0 +1,84 @@
+* {
+	margin: 0rem;
+	padding: 0rem;
+	box-sizing: border-box;
+  }
+  body {
+	font-family: "Times New Roman", Times, serif;
+	color: rgba(24, 9, 14, 0.788);
+	background-color:rgb(246, 236, 236);
+  }
+  .container {
+	max-width: 90rem;
+	margin: 2rem auto;
+	padding: 0rem 2rem;
+  }
+  .header {
+	padding: 2rem;
+	margin: 1rem 0rem;
+	text-align: center;
+  }
+  .header > .title {
+	margin-bottom: 1rem;
+	font-size: 3rem;
+  }
+  .title > hr {
+	width: 18.5rem;
+	margin-left: 36.2rem;
+  }
+  .header > .description {
+	font-size: 1.2rem;
+  }
+  .about {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	max-width: 80rem;
+	margin: 0rem auto;
+	background: white;
+	color: black;
+	align-items: center;
+	padding: 1rem 1rem 1rem 3rem;
+  }
+  .main blockquote {
+	text-align:start;
+	font-size: 2rem;
+  }
+  
+  .bio {
+	text-align: center;
+	margin: 8rem auto;
+	padding: 0rem 6rem;
+  }
+  .bio > h2 {
+	margin-bottom: 1rem;
+	font-size: 3rem;
+	line-height: 1.2;
+	color: rgb(231, 110, 11);
+  }
+  .bio > p {
+	font-size: 1.2rem;
+	line-height: 1.4;
+  }
+  .bio > hr {
+	margin-top: 1rem;
+  }
+  
+  footer {
+	text-align: center;
+
+  }
+  /* kkk */
+  .about img{
+	height: auto;
+	width: 430px;
+} 
+
+ .main{
+	width: 200px;
+	max-width: 105%;
+	margin: 0 auto;
+	display: flex;
+	align-items:center;
+	justify-content: space-around;
+
+} 
